@@ -27,6 +27,9 @@
     cursor: pointer;
     font-size: 20px;
     padding: 10px;
+    text-decoration: none;
+    border: 1px solid #b5b5b5;
+    color:black;
 }
 
 .leftbutton:hover {
@@ -44,17 +47,16 @@
 }
 
 .lenta {
-   border-radius: 5px;
-   border-color: #1976D2;
-   background-color: #2196F3;
-   color: white;
-   border: none;
-   border: 1px solid #2196F3;
-   transition: 0.3s;
-   cursor: pointer;
-   font-size: 16px;
-   padding: 5px;
-   text-decoration: none;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border: 1px solid #2196F3;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
 }
 
 .lenta:hover {
@@ -92,4 +94,8 @@ h1 {
 
 h4 {
     height: 20px;
+}
+
+.main {
+    text-align: center;
 }
